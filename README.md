@@ -115,4 +115,4 @@ requirements.txt    Python dependencies
 
 ## Author
 
-[Irabor Aire]
+Irabor Aire
