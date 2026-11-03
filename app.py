@@ -77,8 +77,9 @@ def handle_db_error(e):
 
 
 @app.route("/")
+
 def home():
-    return send_from_directory(os.path.join(BASE_DIR, "static"), "index.html")
+    return send_from_directory(os.path.join(BASE_DIR, "public"), "index.html")
 
 # ---------- authentication ----------
 
