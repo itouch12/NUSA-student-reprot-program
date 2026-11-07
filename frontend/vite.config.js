@@ -8,6 +8,10 @@ const FLASK = 'http://127.0.0.1:5000'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  build: {
+    outDir: '../public',
+    emptyOutDir: true,
+  },
   server: {
     proxy: {
       '/issues': FLASK,
